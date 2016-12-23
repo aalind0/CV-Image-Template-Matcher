@@ -4,12 +4,12 @@ import cv2
 import numpy as np
 
 # reading in the image
-img_rgb = cv2.imread('template.jpg')
+img_rgb = cv2.imread('image.jpg')
 # converting to grayscale
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
 
 # reading the template to be matched.
-template = cv2.imread('match.jpg',0)
+template = cv2.imread('template.jpg',0)
 w, h = template.shape[::-1]
 
 # threshold option, where if something is maybe an 80% match, then we say it's a match.
