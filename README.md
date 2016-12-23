@@ -9,5 +9,5 @@ Here are few screenshots -
 ![Alt text](/template/template.jpg "This is the template to be matched in the given image.")
 
 
-![Alt text](/template/result.jpg "These are the matched templates in the given image.")
+![Alt text](/template/result.JPG "These are the matched templates in the given image.")
 
